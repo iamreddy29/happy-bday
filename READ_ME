@@ -1,0 +1,21 @@
+Guide to change the url of your starpage page.
+
+FOR MOZILLA:
+
+	Type 'about:preferences' in your url bar and hit enter
+	Change the value of 'Home Page' to the file path of your startpage
+
+		TIP:
+		If you don't know what the file path of your startpage you can just drag
+		the html file to your browser's url bar to get it. Then copy and past it into
+		the Home Page value.
+
+FOR CHORME:
+(I just googled this cause i don't use chrome so I'm not sure haha)
+
+    Open Chrome.
+    In the top-right corner, click the icon you see: Menu or More .
+    Select Settings.
+    Under "Appearance," check the box Show Home button.
+    Below "Show Home button," click Change to choose your homepage.
+

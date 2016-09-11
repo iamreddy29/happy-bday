@@ -1,0 +1,60 @@
+body {
+	/*
+	IF YOU WANT TO CHANGE THE BACKGROUND 
+	SAVE THE IMAGE OF YOUR PREFERRED BG TO the src FOLDER
+	REPLACE "src/BG.gif" TO "src/file_name_of_your_file.extention_of_your_file"
+	EXAMPLE: background-image: url("src/Cats.jpg")
+	*/
+
+	background-image: url("src/BG.gif");
+	background-repeat: repeat;
+}
+
+p {
+	/*YOU CAN REPLACE THIS WITH YOUR PREFERRED FONT & SIZE*/
+
+	font-family: Monospace; 
+	font-size:11px;
+}
+
+#MESSAGE img{
+	position: absolute;
+	top:35px;
+	left: 37%;
+	height: 260px;
+}
+
+#MESSAGE p{
+	position: absolute;
+	top: 300px;
+	left: 39%;
+	color: #ffffff; /*SEARCH FOR THE HEXADECIMAL EQUIVALENT OR GO TO http://www.color-hex.com/ */
+	text-align: center;
+}
+
+#LINKS table{
+	position:absolute;
+	top: 500px;
+	left: 39%;
+}
+
+#LINKS a{
+	font-size:11px;
+	color:#ffffff;
+	text-decoration:none;
+	font-family:Monospace;
+	text-align:center;
+}
+
+#LINKS a:hover{
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	color:#000000;
+	background:#ffffff;
+	text-decoration:line-through;
+	font-family:Monospace;
+	text-align:center;
+}
